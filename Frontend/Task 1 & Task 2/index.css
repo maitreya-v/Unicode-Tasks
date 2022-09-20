@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto:wght@700&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@200&family=Open+Sans:wght@700&family=Raleway:wght@800&family=Source+Sans+3:wght@200&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+#navBrand {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#row {
+ 
+  width: 100vw;
+}
+#folio {
+  color: #ea1c2c;
+}
+.navbar.scrolled {
+  background-color: #f7b3b0;
+
+  transition: background 200ms;
+}
+#knowbtn {
+  background-color: #f7b3b0;
+  color: black  ;
+  border: none;
+  border-radius: 40px;
+  margin-top: 3rem;
+  font-size: 1rem;
+  padding: 12px;
+}
+#knowbtn:hover {
+  background-color: #eba7ac;
+}
+#first h1 {
+  font-size: 4rem;
+}
+#first p {
+  font-size: 1.5rem;
+}
+@media (max-width: 1200px) {
+  #first h1 {
+    font-size: 3rem;
+  }
+  #first p {
+    font-size: 1.3rem;
+  }
+  #knowbtn {
+    margin-top: 2rem;
+  }
+}
+
+#aboutmeName {
+  font-size: 3rem;
+}
+
+#abtme {
+  font-size: 2rem;
+  
+}
+#skills {
+  font-size: 2rem;
+}
+#contactme {
+  height: 75vh;
+}
+
+#pfp1 {
+  height: 50vh;
+}
+#address {
+  line-height: 30px;
+}
+.social-media-icons {
+  line-height: 60px;
+  color: rgba(0, 0, 0, 0.703);
+}
+.social-media-icons:hover {
+  line-height: 55px;
+  color: black;
+  transition: color 200ms;
+  transition: line-height 200ms;
+}
+#pfp1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+#pfp1 ul li {
+  
+  font-size: 30px;
+  margin: 0 10px;
+  line-height: 30px;
+}
+#bars{
+  margin: 12px 0;
+  background-color: #838C95;
+  width: 100%;
+  height: 40px;
+}
+#adios ul{
+  list-style: none;
+  
+  padding: 0;
+  margin: 0;
+}
+.skill li{
+margin: 20px 0;
+padding :10px
+}
+.bar{
+  background-color:#838C95; ;
+  display: block;
+  height: 50px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius:10px;
+  overflow:hidden;
+}
+.bar span{
+  height: 50px;
+  float:left;
+
+}
+.html{
+  width: 90%;
+  background-color: #313131;
+  
+}
+.css{
+  width: 85%;
+  background-color: #313131;
+  
+}
+.javascript{
+  width: 50%;
+  background-color: #313131;
+  
+}
+.reactjs{
+  width: 20%;
+  background-color: #313131;
+  
+}
+@media(min-width:355px) and(max-width:445px){
+  #pfp{
+    height:23vh;
+  }
+}
+@media(max-width:1305px){
+ #responsiveimage{
+
+  width: 15rem;
+} 
+#aboutmeName{
+ font-size:2rem; 
+}
+#abtme{
+  font-size:1.8rem;
+}
+#pfp1{
+  height: 10vh;
+
+}
+
+#skills{
+  margin-top:50px;
+}
+}
+
+#first button:link{ text-decoration: none; }
+
+
+#first button:visited { text-decoration: none; }
+
+
+#first button:hover { text-decoration: none; }
+
+
+#first button:active { text-decoration: none; }
+
+
+#feelfree{
+  font-size: 3rem;
+}
+footer{
+  width:100vw;
+  border-top: black;
+}
+@media(min-width:1200px) and (max-width:1305px){
+  .adios{
+    margin-top:150px;
+  }
+}
+ @media  (max-width:1300px) {
+  #feelfree{
+    font-size: 2.5rem;
+  }
+}
+
+
+@media(max-width:600px){
+  .display-none-karna-hai{
+    display:none;
+  }
+}
+#formBtn{
+  background-color: #f7b3b0;
+}
+#formBtn:hover{
+  background-color: #eba7ac;
+}
+#downloadResume{
+  min-height: 100px;
+  
+}
+#feelfree{
+  min-height: 100px;
+  
+}
+@media(max-width:390px){
+  #contactme{
+    display: flex;
+    
+    height: 800px;
+  }
+  
+}
+
+@media(min-width:1200px){
+  #adios{
+    height: 75vh;
+  }
+  #pfp1{
+    height: 60vh;
+  }
+  #pfp{
+    height: 40vh;
+  }
+}
+
+#contactmetext{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+@media(max-width:306px){
+  #contactmetext{
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+@media(max-width:258px){
+  #contactmetext{
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
