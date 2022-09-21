@@ -80,9 +80,9 @@ p {
 #skills {
   font-size: 2rem;
 }
-#contactme {
+/* #contactme {
   height: 75vh;
-}
+} */
 
 #pfp1 {
   height: 50vh;
@@ -185,6 +185,7 @@ padding :10px
 
 #skills{
   margin-top:50px;
+ 
 }
 }
 
@@ -262,7 +263,7 @@ footer{
 #contactmetext{
   font-size: 2.5rem;
   text-transform: capitalize;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
 }
 @media(max-width:306px){
   #contactmetext{
@@ -275,4 +276,33 @@ footer{
     width: 100%;
     font-size: 1.5rem;
   }
+}
+/* #skills{
+  border-bottom: 2px solid;
+  border-width: 20px;
+} */
+hr{
+width: 60px;
+    background-color: #eb888e;
+    height: 2px;
+    margin-top:0;
+    /* margin-bottom: 1rem; */
+}
+hr{
+/* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+#abtme{
+  /* font-weight: bold; */
+  text-transform: capitalize;
+}
+.email{
+  color: black;
+  text-decoration: none;
+}
+.email:hover{
+  color: black;
+  text-decoration: none;
 }

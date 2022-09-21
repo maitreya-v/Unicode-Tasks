@@ -65,9 +65,3 @@ window.addEventListener ('scroll',(e)=>{
    document.getElementById('mainNavbar').style.transition='background 200ms';
   }
 })  
-// window.addEventListener("resize", function() {
-//   if (window.matchMedia("(min-width: 480px)").matches) {
-//     const jeez=document.getElementById('feelfree');
-//     jeez.style.innerHTML="Contact Me";
-//   }
-// })
