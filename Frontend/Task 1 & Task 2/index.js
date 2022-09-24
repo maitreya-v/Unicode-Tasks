@@ -5,8 +5,8 @@
     var phoneno1=document.getElementById("text3").value;
     var message1=document.getElementById("text4").value;
     // var regxForName=/^([a-zA-Z]{3,20})$/;
-    var regxForName=/^([a-zA-Z\.\s]{3,20})$/;
-    var regxForEmail= /^([a-z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
+   var regxForName=/^([a-zA-Z\.\s]{3,20})$/;
+    var regxForEmail= /^([a-z0-9\.]+)@([a-z0-9]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
     var regxForPhoneNo=/^([0-9]{10})$/;
     var regxForMessage=/^([^]{1,100})$/;
       
